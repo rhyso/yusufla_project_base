@@ -1,0 +1,166 @@
+body{
+  background:white;
+  font-family: 'Noto Sans', sans-serif;
+  margin-bottom: 50px;
+
+}
+.timeline-Footer{
+  display: none!important;
+}
+h1{
+  color:#201a1e;
+  font-size: 107px;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: left
+}
+
+ul li{
+  list-style: none;
+}
+
+H2{
+  COLOR:#201a1e;
+}
+.bluesoft{
+  color:#2C84B1;
+}
+.carousel-control{
+  opacity:0.3;
+  width:6%;
+}
+.card{
+  margin-top: 20px;
+  &.half{
+    display: inline-block;
+    float:left;
+  }
+  h2{
+    font-size: 50px;
+  }
+  ul li{
+    line-height: 30px;
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
+  &.black{
+    background-color: black;
+    background-image: url('../img/coverArt.png');
+    background-repeat: no-repeat;
+    background-position: 313px -45px;
+    color: white;
+    padding: 20px;
+    h2{
+      color:white;
+    }
+  }
+}
+
+header{
+  padding-bottom: 20px;
+  h1{
+    float: left;
+    img{
+      width: 100%;
+    }
+  }
+  ul.social{
+    text-align: center;
+    clear: both;
+    li{
+      display: inline-block;
+      list-style: none;
+      padding-right: 25px;
+        img{
+          width: 45px;
+          height: 45px;
+        }
+      &:hover{
+        img{
+          filter: grayscale(100%);
+          cursor: pointer;
+        }
+      }
+      }
+  }
+}
+
+.livedates{
+  width:65%;
+  margin-right: 30px;
+  h2{
+    img{
+      width: 60px;
+      margin-left: -19px;
+      margin-top: -3px;
+    }
+  }
+  ul li{
+    list-style:none;
+   padding-left:0;
+  }
+}
+.newsletter{
+  width:30%;
+  h2{
+    // background-image: url('../img/newsletter.png');
+    background-repeat: no-repeat;
+    padding-right: 25px;
+    background-position: right 0px;
+    background-size: 37px 38px;
+  }
+
+}
+.row-black{
+  background-color: black;
+  padding-top:20px;
+}
+.container{
+  position: relative;
+}
+
+nav{
+  clear:both;
+  color:black;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top:20px;
+  border-top: 1px solid #aaa;
+  ul {
+    display:inline;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    li{
+      padding-right:60px;
+      font-weight: bold;
+      display: inline-block;
+      color:#4C4C4C;
+      font-family: 'Noto Sans', sans-serif;
+      a{
+        color: #201a1e;
+      }
+      a:hover,
+      &:hover{
+        color:#eaeaea;
+        cursor:pointer;
+        text-decoration: none;
+      }
+    }
+  }
+
+}
+
+.hero{
+  text-align: center;
+  img{
+    width: 100%;
+    opacity: 0.9;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+    .newsletter,.livedates {
+        width:100%;
+    }
+}

@@ -1,0 +1,202 @@
+/* line 1, ../../sass/site.scss */
+body {
+  background: white;
+  font-family: 'Noto Sans', sans-serif;
+  margin-bottom: 50px;
+}
+
+/* line 7, ../../sass/site.scss */
+.timeline-Footer {
+  display: none !important;
+}
+
+/* line 10, ../../sass/site.scss */
+h1 {
+  color: #201a1e;
+  font-size: 107px;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: left;
+}
+
+/* line 17, ../../sass/site.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 21, ../../sass/site.scss */
+H2 {
+  COLOR: #201a1e;
+}
+
+/* line 24, ../../sass/site.scss */
+.bluesoft {
+  color: #2C84B1;
+}
+
+/* line 27, ../../sass/site.scss */
+.carousel-control {
+  opacity: 0.3;
+  width: 6%;
+}
+
+/* line 31, ../../sass/site.scss */
+.card {
+  margin-top: 20px;
+}
+/* line 33, ../../sass/site.scss */
+.card.half {
+  display: inline-block;
+  float: left;
+}
+/* line 37, ../../sass/site.scss */
+.card h2 {
+  font-size: 50px;
+}
+/* line 40, ../../sass/site.scss */
+.card ul li {
+  line-height: 30px;
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+/* line 45, ../../sass/site.scss */
+.card.black {
+  background-color: black;
+  background-image: url("../img/coverArt.png");
+  background-repeat: no-repeat;
+  background-position: 313px -45px;
+  color: white;
+  padding: 20px;
+}
+/* line 52, ../../sass/site.scss */
+.card.black h2 {
+  color: white;
+}
+
+/* line 58, ../../sass/site.scss */
+header {
+  padding-bottom: 20px;
+}
+/* line 60, ../../sass/site.scss */
+header h1 {
+  float: left;
+}
+/* line 62, ../../sass/site.scss */
+header h1 img {
+  width: 100%;
+}
+/* line 66, ../../sass/site.scss */
+header ul.social {
+  text-align: center;
+  clear: both;
+}
+/* line 69, ../../sass/site.scss */
+header ul.social li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 25px;
+}
+/* line 73, ../../sass/site.scss */
+header ul.social li img {
+  width: 45px;
+  height: 45px;
+}
+/* line 78, ../../sass/site.scss */
+header ul.social li:hover img {
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+/* line 87, ../../sass/site.scss */
+.livedates {
+  width: 65%;
+  margin-right: 30px;
+}
+/* line 91, ../../sass/site.scss */
+.livedates h2 img {
+  width: 60px;
+  margin-left: -19px;
+  margin-top: -3px;
+}
+/* line 97, ../../sass/site.scss */
+.livedates ul li {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 102, ../../sass/site.scss */
+.newsletter {
+  width: 30%;
+}
+/* line 104, ../../sass/site.scss */
+.newsletter h2 {
+  background-repeat: no-repeat;
+  padding-right: 25px;
+  background-position: right 0px;
+  background-size: 37px 38px;
+}
+
+/* line 113, ../../sass/site.scss */
+.row-black {
+  background-color: black;
+  padding-top: 20px;
+}
+
+/* line 117, ../../sass/site.scss */
+.container {
+  position: relative;
+}
+
+/* line 121, ../../sass/site.scss */
+nav {
+  clear: both;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #aaa;
+}
+/* line 129, ../../sass/site.scss */
+nav ul {
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  width: 100%;
+}
+/* line 134, ../../sass/site.scss */
+nav ul li {
+  padding-right: 60px;
+  font-weight: bold;
+  display: inline-block;
+  color: #4C4C4C;
+  font-family: 'Noto Sans', sans-serif;
+}
+/* line 140, ../../sass/site.scss */
+nav ul li a {
+  color: #201a1e;
+}
+/* line 143, ../../sass/site.scss */
+nav ul li a:hover, nav ul li:hover {
+  color: #eaeaea;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* line 154, ../../sass/site.scss */
+.hero {
+  text-align: center;
+}
+/* line 156, ../../sass/site.scss */
+.hero img {
+  width: 100%;
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 585px) {
+  /* line 163, ../../sass/site.scss */
+  .newsletter, .livedates {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=site.css.map */

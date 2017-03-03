@@ -1,0 +1,118 @@
+body{
+  background:white;
+  font-family: 'Noto Sans', sans-serif;
+  margin-bottom: 50px;
+
+}
+
+h1{
+  color:#201a1e;
+  font-size: 107px;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: left
+}
+
+ul li{
+  list-style: none;
+}
+
+H2{
+  COLOR:#201a1e;
+}
+.card{
+  margin-top: 20px;
+  h2{
+    font-size: 50px;
+  }
+  ul li{
+    line-height: 30px;
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
+  &.black{
+    background-color: black;
+    background-image: url('../img/coverArt.png');
+    background-repeat: no-repeat;
+    background-position: 313px -45px;
+    color: white;
+    padding: 20px;
+    h2{
+      color:white;
+    }
+  }
+}
+
+header{
+  padding-bottom: 20px;
+  h1{
+    width:50%;
+    float: left;
+    img{
+      width: 100%;
+    }
+  }
+  ul.social{
+    width: 50%;
+    text-align: right;
+    float: left;
+    margin-top: 75px;
+    li{
+      display: inline-block;
+      float: right;
+      list-style: none;
+      padding-right: 25px;
+        img{
+          width: 45px;
+          height: 45px;
+        }
+      &:hover{
+        img{
+          filter: grayscale(100%);
+          cursor: pointer;
+        }
+      }
+      }
+  }
+}
+
+.row-black{
+  background-color: black;
+  padding-top:20px;
+}
+.container{
+  position: relative;
+}
+
+nav{
+  clear:both;
+  color:black;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top:20px;
+  border-top: 1px solid #aaa;
+  ul {
+    display:inline;
+    text-decoration: none;
+    list-style: none;
+    li{
+      float: left;
+      padding-right:60px;
+      color:#4C4C4C;
+      font-family: 'Noto Sans', sans-serif;
+      &:hover{
+        color:#eaeaea;
+        cursor:pointer;
+      }
+    }
+  }
+
+}
+
+.hero{
+  text-align: center;
+  img{
+    width: 97%;
+    opacity: 0.9;
+  }
+}
